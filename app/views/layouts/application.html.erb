@@ -1,7 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+
     <title>MbSalon</title>
+
+    <div class="btn-group">
+      <a href="/homes"><button>Home</button></a>
+      <a href="/services"><button>Services</button></a>
+      <a href="/galleries"><button>Gallery</button></a>
+      <a href="/bookings"><button>Booking</button></a>
+
+
+    </div>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -11,12 +21,7 @@
 
   <body>
     <%= yield %>
-    <div class="btn-group">
-      <a href="/homes"><button>Home</button></a>
-      <a href="/services"><button>Services</button></a>
 
-    </div>
-    </div>
 
   </body>
 </html>
