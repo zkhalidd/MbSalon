@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+
+div.title {
+    font-size:30px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+body {
+    background-color: black;
+}
+div.btn-group{
+    font-size:30px;
+}
